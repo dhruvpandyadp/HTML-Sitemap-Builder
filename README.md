@@ -9,7 +9,6 @@ A powerful and customizable WordPress plugin to generate HTML sitemaps that auto
 - **Flexible Sorting Options**: 
   - Alphabetical order
   - Newest to oldest
-  - Custom sorting options
 - **Auto-Update**: Sitemap automatically refreshes when content changes by clearing the cache
 - **Easy Integration**: Simple to set up and integrate with any WordPress theme
 
@@ -31,11 +30,15 @@ A powerful and customizable WordPress plugin to generate HTML sitemaps that auto
 ## Configuration Options
 
 - **Post Type Selection**: Choose which content types to display (Posts, Pages, Custom Post Types)
-- **Sorting Options**: 
+- **Hierarchical Display Selection:** Toggles the parent-child nesting structure for hierarchical post types (like Pages)
+- **Maximum Depth:** Sets the maximum number of nesting levels (e.g., parent, child, grandchild) to display in the hierarchical sitemap (up to 50 levels). 
+- **Sorting Options:** 
   - Alphabetical
   - Date (Newest/Oldest)
-  - Custom order
-- **SEO Integration**: Automatically respects noindex settings from major SEO plugins
+- **Exclusion Options:** 
+  - Exclude Posts/Pages (IDs): Manually exclude specific content by entering a list of their IDs.
+  - Exclude Noindex Posts: Automatically respects noindex settings from major SEO plugins like Yoast, Rank Math, and SEOPress, removing them from the sitemap.
+- **SEO Integration**: Automatically respects noindex settings from major SEO plugins like Yoast, RankMath, and SEOPress. 
 - **Cache Control**: Built-in caching system for optimal performance
 
 ## Requirements
@@ -49,21 +52,15 @@ A powerful and customizable WordPress plugin to generate HTML sitemaps that auto
 - Initial release
 - Basic sitemap functionality
 - Post type filtering
+- Hierarchical support
+- Exclude Posts/Pages
+- Exclude Noindex Posts/Pages
 - Sorting options
 - Cache management
 
-## Contributing
-
-Contributions are welcome! Feel free to:
-
-1. Fork the repository
-2. Create a new branch
-3. Make your changes
-4. Submit a pull request
-
 ## License
 
-This project is licensed under the GPL v2 or later - see the LICENSE file for details.
+This project is licensed under the GPL v3 - see the [LICENSE](https://github.com/dhruvpandyadp/HTML-Sitemap-Builder/blob/main/LICENSE) file for details.
 
 ## Support
 
@@ -75,4 +72,4 @@ Created and maintained by [Dhruv Pandya](https://github.com/dhruvpandyadp)
 
 ---
 
-Made with ❤️ for the WordPress community
+Made with ❤️ for the WordPress and SEO community
