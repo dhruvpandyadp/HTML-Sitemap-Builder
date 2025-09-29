@@ -262,7 +262,7 @@ class HTML_Sitemap_Builder {
                     </tr>
                     
                     <tr>
-                        <th scope="row"><?php esc_html_e('Exclude Posts/Posts (IDs)', 'html-sitemap-builder'); ?></th>
+                        <th scope="row"><?php esc_html_e('Exclude Posts/Pages (IDs)', 'html-sitemap-builder'); ?></th>
                         <td>
                             <textarea name="<?php echo esc_attr(self::OPTION_KEY); ?>[exclude_posts]" 
                                        rows="3" cols="50" class="large-text" maxlength="10000"><?php 
@@ -276,14 +276,14 @@ class HTML_Sitemap_Builder {
                     </tr>
                     
                     <tr>
-                        <th scope="row"><?php esc_html_e('Exclude Noindex Posts', 'html-sitemap-builder'); ?></th>
+                        <th scope="row"><?php esc_html_e('Exclude Noindex Posts/Pages', 'html-sitemap-builder'); ?></th>
                         <td>
                             <label>
                                 <input type="checkbox" 
                                        name="<?php echo esc_attr(self::OPTION_KEY); ?>[exclude_noindex]" 
                                        value="1" 
                                        <?php checked(!empty($settings['exclude_noindex'])); ?>>
-                                <?php esc_html_e('Exclude posts marked as noindex by SEO plugins.', 'html-sitemap-builder'); ?>
+                                <?php esc_html_e('Exclude posts/pages marked as noindex by SEO plugins.', 'html-sitemap-builder'); ?>
                             </label>
                             <p class="description">
                                 <?php esc_html_e('Supports Yoast, Rank Math, and SEOPress.', 'html-sitemap-builder'); ?>
