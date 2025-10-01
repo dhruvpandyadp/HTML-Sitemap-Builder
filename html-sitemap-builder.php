@@ -6,7 +6,7 @@
  * Version: 1.0.0
  * Author: Dhruv Pandya
  * Author URI: https://pandyadhruv.com/
- * License: GPL2
+ * License: GPL3
  * Requires at least: 5.8
  * Requires PHP: 7.2
  * Text Domain: html-sitemap-builder
