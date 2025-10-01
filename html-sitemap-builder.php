@@ -2,7 +2,7 @@
 /**
  * Plugin Name: HTML Sitemap Builder
  * Plugin URI: https://pandyadhruv.com/
- * Description: Build customizable HTML sitemaps for your WordPress site. Include or exclude specific post types, skip noindex posts from SEO plugins, and control the display order with options like Alphabetical** or Newest to Oldest. The sitemap automatically updates by clearing the cache whenever changes are made.
+ * Description: Build customizable HTML sitemaps for your WordPress site. Include or exclude specific post types, skip noindex posts from SEO plugins, and control the display order with options like Alphabetical or Newest to Oldest. The sitemap automatically updates by clearing the cache whenever changes are made.
  * Version: 1.0.0
  * Author: Dhruv Pandya
  * Author URI: https://pandyadhruv.com/
